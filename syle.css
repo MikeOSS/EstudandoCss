@@ -1,0 +1,65 @@
+body {
+  background-image: url(img/coffeeBack.webp);
+}
+main {
+  background: linear-gradient(to right, #e5b687, #e2d1c3);
+  max-width: 500px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+h1,
+h2 {
+  margin-top: -5px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.since {
+  margin-top: -15px;
+  text-align: center;
+  font-style: italic;
+}
+
+.item p {
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.coffe-option {
+  text-align: left;
+  width: 70%;
+}
+.price {
+  text-align: right;
+  width: 25%;
+}
+
+hr {
+  background-color: brown;
+  height: 2px;
+  border-color: brown;
+}
+
+.link {
+  text-align: center;
+}
+a {
+  color: brown;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(132, 90, 34);
+}
+
+img {
+  width: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
